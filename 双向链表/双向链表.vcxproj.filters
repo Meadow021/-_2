@@ -15,15 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sort.h">
+    <ClCompile Include="d-list.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="sort.cpp">
+    </ClCompile>
+    <ClCompile Include="List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="sort_test.cpp">
+    <ClCompile Include="Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

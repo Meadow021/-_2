@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0209cedd-230b-467c-a89e-a3fea75ed6f6}</ProjectGuid>
-    <RootNamespace>Sort</RootNamespace>
+    <ProjectGuid>{72e52408-78f4-4b65-a667-7e05db5c117e}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>链栈</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,11 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="sort.h" />
+    <ClInclude Include="link_stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sort.cpp" />
-    <ClCompile Include="sort_test.cpp" />
+    <ClCompile Include="link_stack.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
